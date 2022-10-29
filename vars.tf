@@ -1,0 +1,9 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDI8MLZLcn9dHNPgLXvqp5XxcQP6F1eRzPtQdRPQYxQCYPaJsZ9wrHaEDPVoLcH1YrRDEIW6pR0G1zuvXfwpomY2sFT2SJBagEeq71mTSZE50x3ZmXBq/O1XaN1zhCnSYpKYHtaDigg0ZciM7C6GDAxK7NR6IJoJywUkUr/d2CmQftEPMCbWMbv4GULsrILhpED5/GtANpM4LmSvAMKn87lZiy05j43yrmxWepnCO1izEobrz76RyJWUmOcsaSs/xpdArz3S7fjPm7S/Ey+0qxmJJqMC9CEVSa/ZuiLIYesARy+Gv7ZWZ2B3bBqZ2sglq3JLYuExQivnO4uYdW7m96G3zTEqV+qldjIP4NzmhfnHdKIt2SIu+5ipsD7zUWzmzc2o8I8oRc2IOZrsTNxatpZ5VDIf5v5pkqqR9xGGcD6KCmAtG/O15ZC8IN+grRSs0eHlH4mtK1vAKv53UTdR9Giy6owzaifPXaQUBo3TVrMzXSaJM4KuxkmojyUYWU+UsFSn/MIE6+js4MJCQyJeGz6vbzUktNBkxrHbBysguanMxyiTTs4d7eIMMKKl4BwkAbZx6DDDb8Z50P2+ntVvmAUK4e7Kbbqjs7SYR0I9GLpFxrSbHz37cNL/0BOI04TTXvVN7Z8DhjRPOMP2vrMdmEraTOb5lbXQ3kLcAU3213RYQ== vagrant@wb.local"
+}
+variable "proxmox_host" {
+    default = "192.168.1.230"
+}
+variable "template_name" {
+    default = "debian-cloudinit"
+}
